@@ -72,7 +72,7 @@ rest:
         unit_of_measurement: V
       - name: "TLX_GridV3"
         value_template: "{{ value_json.GridV3 |round(1)}}"
-        unit_of_measurement: V		 
+        unit_of_measurement: V
       - name: "TLX_PvV1"
         value_template: "{{ value_json.PvV1 |round(1)}}"
         unit_of_measurement: V
@@ -81,7 +81,7 @@ rest:
         unit_of_measurement: V
       - name: "TLX_PvV3"
         value_template: "{{ value_json.PvV3 |round(1)}}"
-        unit_of_measurement: V	
+        unit_of_measurement: V
       - name: "TLX_GridA1"
         value_template: "{{ value_json.GridA1 |round(1)}}"
         unit_of_measurement: A
@@ -90,7 +90,7 @@ rest:
         unit_of_measurement: A
       - name: "TLX_GridA3"
         value_template: "{{ value_json.GridA3 |round(1)}}"
-        unit_of_measurement: A		
+        unit_of_measurement: A
       - name: "TLX_PvA1"
         value_template: "{{ value_json.PvA1 |round(1)}}"
         unit_of_measurement: A
@@ -99,4 +99,4 @@ rest:
         unit_of_measurement: A
       - name: "TLX_PvA3"
         value_template: "{{ value_json.PvA3 |round(1)}}"
-        unit_of_measurement: A	
+        unit_of_measurement: A
