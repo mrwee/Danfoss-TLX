@@ -35,17 +35,17 @@ rest:
         value_template: "{{ value_json.GridEL1day |round(3)}}"
         unit_of_measurement: kWh
         device_class: 'energy'
-        state_class: total_increasing		
+        state_class: total_increasing
       - name: "Tmp Grid Energy Today, L2"
         value_template: "{{ value_json.GridEL2day |round(3)}}"
         unit_of_measurement: kWh
         device_class: 'energy'
-        state_class: total_increasing		
+        state_class: total_increasing
       - name: "Tmp Grid Energy Today, L3"
         value_template: "{{ value_json.GridEL3day |round(3)}}"
         unit_of_measurement: kWh
         device_class: 'energy'
-        state_class: total_increasing        
+        state_class: total_increasing
       # Power
       - name: "TLX Grid Power"
         value_template: "{{ value_json.GridP |round(0)}}"
@@ -62,7 +62,7 @@ rest:
       - name: "TLX_GridP3"
         value_template: "{{ value_json.GridP3 |round(0)}}"
         unit_of_measurement: W
-        device_class: 'power'	
+        device_class: 'power'
       # Volt / Ampere
       - name: "TLX_GridV1"
         value_template: "{{ value_json.GridV1 |round(1)}}"
